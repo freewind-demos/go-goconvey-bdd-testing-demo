@@ -1,10 +1,10 @@
-Go Hello World Demo
+GoConvey BDD Test Demo
 ===================
+
+Write BDD tests with [goconvey](https://github.com/smartystreets/goconvey).
 
 ```
 brew install go
 go get
-go run hello.go
+go test .
 ```
-
-You will see `Hello, go!`
